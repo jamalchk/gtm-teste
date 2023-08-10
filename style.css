@@ -1,0 +1,27 @@
+.botao {
+    all: unset;
+    background: red;
+    padding: 16px;
+    border-radius: 8px;
+    font-family: sans-serif;
+    font-weight: 700;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.botao:hover {
+    cursor: pointer;
+}
+
+.botao1 { background: blue; color: white; }
+.botao2 { background: pink; }
+.botao3 { background: rebeccapurple; color: white; }
+
+.titulo {
+    font-family: sans-serif;
+}
+
+body {
+    display: grid;
+    place-content: center;
+}
