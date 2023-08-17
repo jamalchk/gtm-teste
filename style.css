@@ -13,9 +13,19 @@
     cursor: pointer;
 }
 
-.botao1 { background: blue; color: white; }
-.botao2 { background: pink; }
-.botao3 { background: rebeccapurple; color: white; }
+.secao1 .botao1 { background: blue; color: white; }
+.secao1 .botao2 { background: pink; }
+.secao1 .botao3 { background: rebeccapurple; color: rgb(255, 255, 255); }
+.secao2 .botao1 { background: rgb(184, 95, 117); color: white; }
+.secao2 .botao2 { background: rgb(189, 141, 101); }
+.secao2 .botao3 { background: rgb(170, 99, 122); color: white; }
+
+.secao {
+    padding: 32px;
+    border: 2px solid black;
+    margin: 16px;
+    font-family: sans-serif;
+}
 
 .titulo {
     font-family: sans-serif;
